@@ -1,25 +1,24 @@
-# AE-RHCNet Video Anomaly Detection
+# Improvd RHCNet with memory augummented E3D-LSTM for prediction based Video Anomaly Detection
 
 PyTorch implementation of a hybrid spatiotemporal autoencoder for video anomaly detection.
 
 The architecture combines:
 
-- Residual Hybrid Convolution Network (RHCNet)
-- Attention Enhanced RHCNet (AE-RHCNet)
-- ConvLSTM based spatiotemporal modeling
+- Improved Residual Hybrid Convolution Network (RHCNet)
+- Memory Augumented Eidetic 3D-LSTM based spatiotemporal modeling
 
 The model predicts the next frame given previous frames and detects anomalies using reconstruction error.
 
 ## Architecture
 
 Encoder:
-RHCNet-based hierarchical feature extraction.
+Improved RHCNet-based hierarchical feature extraction.
 
 Temporal modeling:
-3D-LSTM / ConvLSTM/ E3D-LSTM.
+Memory Augumented E3D-LSTM.
 
 Decoder:
-Attention Enhanced RHCNet blocks.
+Improved RHCNet blocks.
 
 
 ## Dataset
