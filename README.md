@@ -27,45 +27,16 @@ Experiments were conducted on:
 
 - CUHK Avenue dataset
 - ShanghiTech dataset
-- UCSD Ped2 dataset
+- UBNormal dataset
 
 Dataset structure:
 
     Data/
-    └── UCSD/
-        ├── training_frames/
-            └── Train001/
-                └── 001.tif/
-                └── 002.tif/
-                └── 003.tif/
-                └── 004.tif/
-            └── Train002/
-                └── 001.tif/
-                └── 002.tif/
-                └── 003.tif/
-                └── 004.tif/
-            └── Train004/
-                └── 001.tif/
-                └── 002.tif/
-                └── 003.tif/
-                └── 004.tif/
-            └── Train005/
-                └── 001.tif/
-                └── 002.tif/
-                └── 003.tif/
-                └── 004.tif/
-        └── validation_frames/
-                └── Train002/
-                    └── 001.tif/
-                    └── 002.tif/
-                    └── 003.tif/
-                    └── 004.tif/
+    └── Avenue/
+        ├── training_frames/       
+  
         └── testing_frames/
-                └── Test001/
-                    └── 001.tif/
-                    └── 002.tif/
-                    └── 003.tif/
-                    └── 004.tif/
+
 
 ## Training
 
