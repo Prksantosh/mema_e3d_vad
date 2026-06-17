@@ -27,7 +27,7 @@ Experiments were conducted on:
 
 - CUHK Avenue dataset
 - ShanghiTech dataset
-- Ubnormal dataset
+- UCSD Ped2 dataset
 
 Dataset structure:
 
